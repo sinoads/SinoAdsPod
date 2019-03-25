@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   
   s.source       = { :git => "https://github.com/sinoads/SinoAdsPod.git", :tag => "#{s.version}" }
 
-  s.vendored_frameworks = "Frameworks/AdPush.framework", "Frameworks/BUAdSDK.framework"
+  s.vendored_frameworks = "Frameworks/SinoAds.framework", "Frameworks/BUAdSDK.framework"
   
   s.resource = "Frameworks/BUAdSDK.bundle"
   

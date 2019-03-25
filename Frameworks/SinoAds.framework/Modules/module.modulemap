@@ -1,0 +1,6 @@
+framework module SinoAds {
+  umbrella header "SinoAds.h"
+
+  export *
+  module * { export * }
+}
