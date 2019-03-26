@@ -20,7 +20,9 @@ static const NSString* version = @"0.0.1";
 
 + (SA*)shared;
 
-- (void)setAppId:(NSString*)appId;
+- (void)setAppId:(NSString*)appId andAppSecret:(NSString*)appSecret;
+
+- (NSString*)getAppSecret;
 
 - (void)setDeviceId:(NSString*)deviceId;
 
@@ -33,14 +35,6 @@ static const NSString* version = @"0.0.1";
 - (void)setUserAge:(NSInteger)age;
 
 - (NSInteger)getUserAge;
-
-- (void)setUserKeywords:(NSString*)keywords;
-
-- (NSString*)getUserKeywords;
-
-- (void)setUserExtraData:(NSString*)data;
-
-- (NSString*)getUserExtraData;
 
 - (void)setIsPaidApp:(BOOL)isPaidApp;
 
