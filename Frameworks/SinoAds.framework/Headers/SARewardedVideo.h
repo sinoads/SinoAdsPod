@@ -22,6 +22,8 @@
 
 - (NSString*)getUnitId;
 
+- (void)setExtraData:(SAExtraData*)extraData;
+
 - (SAExtraData*)getExtraData;
 
 - (NSString*)getSdkName;

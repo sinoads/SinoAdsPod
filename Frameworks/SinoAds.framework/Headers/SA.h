@@ -12,8 +12,6 @@
 #import <Foundation/Foundation.h>
 #import "SAConstants.h"
 
-static const NSString* version = @"0.0.1";
-
 @interface SA : NSObject  {
     
 }
@@ -21,6 +19,8 @@ static const NSString* version = @"0.0.1";
 + (SA*)shared;
 
 - (void)setAppId:(NSString*)appId andAppSecret:(NSString*)appSecret;
+
+- (NSString*)getAppId;
 
 - (NSString*)getAppSecret;
 

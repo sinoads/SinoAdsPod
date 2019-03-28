@@ -45,7 +45,12 @@ typedef NS_ENUM(NSInteger, SAHttpError) {
     SAHttpErrorCodeDataLengthError = -2,
     SAHttpErrorCodeUnexpectedError = -3,
     SAHttpErrorCodeDataEmptyError = -4,
+    SAHttpErrorCodeDecodeError = -5,
+    SAHttpErrorCodeDecryptError = -6,
     SAHttpErrorCodeServerConfigError = 1001,
+    SAHttpErrorCodeServerDecodeError = 1002,
+    SAHttpErrorCodeRequestDataEmptyError = 1003,
+    SAHttpErrorCodeWrongAppIdError = 1004,
     SAHttpErrorCodeServerExceptionError = 9001,
 };
 
