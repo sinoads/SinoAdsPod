@@ -23,7 +23,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)rewardedVideoServerRewardDidFail:(SARewardedVideo * _Nonnull)rewardedVideo;
 
 - (void)rewardedVideoDidLoad:(SARewardedVideo * _Nonnull)rewardedVideo;
-- (void)rewardedVideoVideoDidLoad:(SARewardedVideo * _Nonnull)rewardedVideo;
 - (void)rewardedVideo:(SARewardedVideo * _Nonnull)rewardedVideo didFailToLoadWithError:(NSError * _Nonnull)error;
 
 - (void)rewardedVideoWillPresentScreen:(SARewardedVideo * _Nonnull)rewardedVideo;

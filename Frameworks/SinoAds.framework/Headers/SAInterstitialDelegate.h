@@ -17,7 +17,6 @@ NS_ASSUME_NONNULL_BEGIN
 @optional
 
 - (void)interstitialDidLoad:(SAInterstitial * _Nonnull)interstitial;
-- (void)interstitialVideoDidLoad:(SAInterstitial * _Nonnull)interstitial;
 - (void)interstitial:(SAInterstitial * _Nonnull)interstitial didFailToLoadWithError:(NSError * _Nonnull)error;
 
 - (void)interstitialWillPresentScreen:(SAInterstitial * _Nonnull)interstitial;

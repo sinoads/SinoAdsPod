@@ -32,7 +32,7 @@
 
 - (void)load;
 
-- (BOOL)isReady:(BOOL)checkVideoState;
+- (BOOL)isReady;
 
 - (void)presentFromRootViewController:(UIViewController*)rootViewController;
 
